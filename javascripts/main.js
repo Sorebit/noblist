@@ -108,6 +108,7 @@ $(document).ready(() => {
     }
 
     $input.val('');
+    return false;
   });
 
   $('.cover').fadeIn();
